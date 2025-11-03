@@ -43,7 +43,7 @@ static int[] FindMinMax(int[][] logs)
 
     int minVal = int.MaxValue;
     int maxVal = int.MinValue;
-    //O(s)
+    //O(s)123
     foreach (var kpi in KPIs)
     {
         int count = kpi.Value.Count;
